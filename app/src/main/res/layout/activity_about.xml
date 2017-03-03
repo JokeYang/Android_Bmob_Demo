@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:gravity="center" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <RelativeLayout
+                android:id="@+id/rl_welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/img_welcome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:contentDescription="欢迎登陆"
+                    android:src="@drawable/logo" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_welcome"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="NJUPT\nVersion 1.0"
+                    android:textSize="12sp"
+                    android:typeface="monospace" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_welcome"
+                android:gravity="left"
+                android:lineSpacingExtra="5dp"
+                android:lineSpacingMultiplier="1.4"
+                android:text="\n			吃在南邮, 是由计算机学院Joke开发的一款校园生活类手机App.
+吃在南邮集多功能与一身，可以轻松让你获得校园一手资讯，集教学、娱乐于一身的小菜，相信会是你生活的得力助手。
+联系方式:
+联系人		Joke
+电话			18362970575
+QQ				471915038"
+                android:textSize="12sp"
+                android:typeface="monospace" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

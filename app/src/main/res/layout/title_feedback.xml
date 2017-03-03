@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#FFF"
+    android:padding="3dp" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:onClick="clickFeedBack"
+        android:clickable="true"
+        android:text="返回"
+        android:textSize="18sp"
+        android:textColor="#6495ED"
+        android:typeface="monospace"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_centerInParent="true"
+        android:text="意见反馈"
+        android:textSize="20sp"
+        android:textColor="#56abe4"
+        android:typeface="monospace"/>
+</RelativeLayout>
